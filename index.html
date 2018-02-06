@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- title ico-->
+	<link rel="icon" href="img/favicon.ico">
+<!-- adaptiv -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+<!-- title text-->
+	<title>Infinity</title>
+<!-- Font ROBOTO -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900" rel="stylesheet">
+<!-- normalize.css -->
+	<link rel="stylesheet" href="css/normalize.css">
+<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- datedropper CSS-->
+	<link href="css/datedropper.css" rel="stylesheet">
+<!-- Мой CSS --> 
+	<link rel="stylesheet" href="css/style.css">
+<!-- jQuery -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+<!-- bootstrap jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- bootstrap JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="http://bitstorm.org/jquery/color-animation/jquery.animate-colors.js" type="text/javascript"></script>
+<!-- datedropper JS-->
+	<script src="js/datedropper.js"></script>
+<!-- egg.js -->
+	<script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+</head>
+<body>	
+
+<!-- preloader -->
+
+	<div class="preloader" id="preloaderr">
+		<div class="loader">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="loading"></div>
+		</div>
+	</div>
+
+<!-- header -->
+
+	<header>
+		<div class="header">
+			<div class="progressbar"></div>
+			<div class="textpro"></div>
+		</div>
+		<div class="logo">
+			<a href="index.html"></a>
+		</div>
+		<div class="menu" id="menu">
+			<div class="menu-text">MENU</div>
+			<div class="menu-ico">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</div>
+		</div>
+		<button onclick="topFunction()" id="back-on-top">
+			<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		</button>
+		<div class="color-activ">
+			<div class="color-activ-img">
+				<img src="img/corner.png" alt="">
+			</div>
+			<div class="color-activ-left">
+				<ul class="color-activ-left-ul">
+					<li class="yellowgreen-bac"></li>
+					<li class="aqua-bac"></li>
+					<li class="hotpink-bac"></li>
+					<li class="cadetblue-bac"></li>
+					<li class="crimson-bac"></li>
+					<li class="darkblue-bac"></li>
+					<li class="darkslateblue-bac"></li>
+					<li class="yellow-bac"></li>
+					<li class="salmon-bac"></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+<!-- menu-nav -->
+
+	<div class="nav-menu" id="nav-menu">
+		<div class="nav-menu-exet">
+			<i class="fa fa-times" aria-hidden="true"></i>
+		</div>
+		<h3 class="nav-menu-h3">Infinity.</h3>
+		<ul>
+			<li >
+				<div onclick="navHome()">Home</div>
+			</li>
+			<li>
+				<div onclick="navAbout()">About</div>
+			</li>
+			<li>
+				<div onclick="navServices()">Services</div>
+			</li>
+			<li>
+				<div onclick="navWorks()">Works</div>
+			</li>
+			<li>
+				<div onclick="navContact()">Contact</div>
+			</li>
+		</ul>
+		<p class="nav-menu-p">
+			Looking for an awesome and reliable webhosting? Try DreamHost. Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
+		</p>
+		<ul class="nav-menu-social">
+			<li>
+				<a href="https://www.facebook.com/">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/">
+					<i class="fa fa-instagram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/">
+					<i class="fa fa-behance"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://dribbble.com/">
+					<i class="fa fa-dribbble"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="overlay-exet-menu"></div>
+	<div class="overlay-exet-color"></div>
+
+<!-- home -->
+
+	<section class="home">
+		<div class="overlay">
+			<div class="home-center-text">
+				<div class="home-center-text-cell">
+					<h3 class="home-h3">We Are Infinity.</h3>
+					<h1 class="home-h1">
+						<span class="str-home-text-centr">W<span class="transform-home-text-top">e</span> Craft Stunning </span><br><span class="str-home-text-bottom">
+						Digital Experienc<span class="transform-home-text-bottom">e</span>s.</span>
+				  	</h1>
+					<a href="index.html" class="button" id="square">
+						Infinity
+					</a>
+				</div>
+			</div>
+			<ul class="home-nav">
+				<li class="home-nav-li">
+					<a href="https://www.facebook.com/" class="home-nav-link">
+						<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="home-nav-li">
+					<a href="https://twitter.com/" class="home-nav-link">
+						<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="home-nav-li">
+					<a href="https://www.instagram.com/" class="home-nav-link">
+						<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="home-nav-li">
+					<a href="https://www.behance.net/" class="home-nav-link">
+						<i class="fa fa-behance fa-2x" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="home-nav-li">
+					<a href="https://dribbble.com/" class="home-nav-link">
+						<i class="fa fa-dribbble fa-2x" aria-hidden="true" ></i>
+					</a>
+				</li>
+			</ul>
+			<div class="scrolldown" onclick="scrollDown()">
+				<a href="#">Scroll Down
+					<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+
+<!-- about -->
+
+	<section class="about">
+		<div class="roww about-wrap">
+			<div class="about-text">
+				<h3 class="about-h3">About Us</h3>
+				<p class="about-p"><span class="span-infinity">Infinity</span> is a creative digital agency <br>based in Manila, Philippines. We are<br> composed of creative designers and <br>experienced developers.</p>
+			</div>
+		</div>
+	</section>
+
+<!-- services -->
+
+	<section class="services">
+		<div class="overlay services-padding">
+			<div class="roww max-w800">
+				<div class="services-text-top">
+					<h3 class="services-h3">Services</h3>
+					<h1 class="services-h1">What We Do.</h1>
+					<p class="services-p">
+						Lorem ipsum Elit ut consequat veniam eu nulla nulla reprehenderit <br>reprehenderit sit velit in cupidatat ex aliquip ut cupidatat Excepteur<br>tempor id irure sed dolore sint sunt voluptate ullamco nulla qui Duis qui <br>culpa voluptate enim ea aute qui veniam in irure et nisi nostrud deserunt <br>est officia minim.
+					</p>
+				</div>
+			</div>
+			<div class="roww services-content">
+				<div class="services-list">
+					<div class="services-item bgrid">
+						<span class="services-ico">
+							<i class="fa fa-paint-brush" aria-hidden="true"></i>
+						</span>
+						<div class="service-content">
+							<h3 class="services-content-h3">Web Design</h3>
+							<p class="services-content-p">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+				         	</p>
+						</div>
+					</div>
+					<div class="services-item bgrid">
+						<span class="services-ico">
+							<i class="fa fa-globe" aria-hidden="true"></i>
+						</span>
+						<div class="service-content">
+							<h3 class="services-content-h3">Web Development</h3>
+							<p class="services-content-p">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+				         	</p>
+						</div>
+					</div>
+					<div class="services-item bgrid">
+						<span class="services-ico">
+							<i class="fa fa-gavel" aria-hidden="true"></i>
+						</span>
+						<div class="service-content">
+							<h3 class="services-content-h3">Branding</h3>
+							<p class="services-content-p">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+				         	</p>
+						</div>
+					</div>
+					<div class="services-item bgrid">
+						<span class="services-ico">
+							<i class="fa fa-bullhorn" aria-hidden="true"></i>
+						</span>
+						<div class="service-content">
+							<h3 class="services-content-h3">Marketing</h3>
+							<p class="services-content-p">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+				         	</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- portfolio -->
+
+	<section class="showcase">
+		<div class="showcase-wrap">
+			<div class="roww showcase-wrap-text">
+				<h3 class="showcase-wrap-text-h3">
+					Showcase
+				</h3>
+				<h1 class="showcase-wrap-text-h1">See Our Featured Projects.</h1>
+				<p class="showcase-wrap-text-p">
+					Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.
+				</p>
+			</div>
+		</div>
+		<div class="roww showcase-img">
+			<div class="showcase-img-content">
+				<div class="flo showcase-item1">
+					<img src="img/showcase/1.jpg" class="b_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Web Development</span>
+						<h3 class="text-img-h3">Shutterbug</h3>
+					</div> -->
+				</div>
+				<div class="flo showcase-item2">
+					<img src="img/showcase/2.jpg" class="s_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Marketing</span>
+						<h3 class="text-img-h3">Yellow Wall</h3>
+					</div> -->
+				</div>
+				<div class="flo showcase-item3">
+					<img src="img/showcase/3.jpg" class="s_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Web Design</span>
+						<h3 class="text-img-h3">Minimalismo</h3>
+					</div> -->
+				</div>
+				<div class="flo showcase-item4">
+					<img src="img/showcase/4.jpg" class="s_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Web Design</span>
+						<h3 class="text-img-h3">Architecture</h3>
+					</div> -->
+				</div>
+				<div class="flo showcase-item5">
+					<img src="img/showcase/5.jpg" class="s_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Branding</span>
+						<h3 class="text-img-h3">Salad</h3>
+					</div> -->
+				</div>
+				<div class="flo showcase-item6">
+					<img src="img/showcase/6.jpg" class="b_img click" alt="">
+					<div class="overley-img"></div>
+					<!-- <div class="text-img">
+						<span class="text-img-span">Branding</span>
+						<h3 class="text-img-h3">Skaterboy</h3>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- slider -->
+
+	<section class="slider">
+		<div class="roww">
+			<h2 class="slider-h2">What They Say About Us.</h2>
+		</div>
+		<div class="roww">
+			<div class="slider-autor">
+				<div class="main-slider">
+					<div class="author-one">
+						<p class="main-slider-p">
+		                  "Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+		                  to do what you believe is great work. And the only way to do great work is to love what you do.
+		                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it."
+                  		</p>
+                  		<div class="testimonial-author">
+                  			<img src="img/user1.jpg" alt="">
+                  			<div class="author-info">
+                    		Steve Jobs <span>CEO, Apple.</span>
+                    		</div>
+                  		</div>
+					</div>
+					<div class="author-two">
+						<p class="main-slider-p">
+		                  "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+		                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+		                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris." 
+                   		</p>
+                   		<div class="testimonial-author">
+                  			<img src="img/user2.jpg" alt="">
+                  			<div class="author-info">
+                    		John Doe
+                    			<span>CEO, ABC Corp.</span>
+                    		</div>
+                  		</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- contact -->
+
+	<section class="contact">
+		<div class="overlay">
+			<div class="roww contact-text-top">
+				<h3 class="contact-h3">Contact</h3>
+				<h1 class="contact-h1">Get In Touch.</h1>
+				<p class="contact-p">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>	
+			</div>
+			<div class="roww">
+				<div class="contact-bottom">
+					<div class="form">
+						<h5 class="contact-form-h5">Send Us A Message</h5>
+						<div class="contact-form">
+							<div class="roww">
+								<input name="name" placeholder="Name" type="text" class="contact-input-name"
+								id="name">
+								<div class="er-name"></div>
+								<input type="text" data-lang="us" data-translate-mode="true" class="contact-input-date" data-theme="my-style">
+								<div class="er-date"></div>
+							</div>
+							<div class="roww">
+								<input name="email" id="email" placeholder="Email" type="text" class="contact-input-mail">
+								<div class="er-mail"></div>
+								<input placeholder="Subject" type="text" class="contact-input-subject" id="subject">
+								<div class="er-subject"></div>
+							</div>
+							<textarea placeholder="Message" name="" class="contact-textarea" id="zaz"></textarea>
+							<div class="er-textarea"></div>
+							<button onclick="clickForm()" class="contact-button" id="contact-btn">SUBMIT</button>
+							<div class="error"></div>
+							<div class="well"></div>
+						</div>
+					</div>
+					<div class="contact-bottom-text">
+						<h5 class="contact-bottom-text-h5">
+							Contact Information
+						</h5>
+						<div class="contact-bottom-text-find">
+							<h6 class="contact-bottom-text-h6">Where to Find Us</h6>
+							<p class="contact-bottom-text-p">
+				            	1600 Amphitheatre Parkway<br>
+				            	Mountain View, CA <br>
+				            	94043 US        
+							</p>
+						</div>
+						<div class="contact-bottom-text-find">
+							<h6 class="contact-bottom-text-h6">EMAIL US AT</h6>
+							<p class="contact-bottom-text-p">
+			            		someone@infinitysite.com </br>
+								info@infinitysite.com       
+							</p>
+						</div>
+						<div class="contact-bottom-text-find">
+							<h6 class="contact-bottom-text-h6">CALL US AT</h6>
+							<p class="contact-bottom-text-p">
+				            	Phone: (+63) 555 1212 <br>
+								Mobile: (+63) 555 0100 <br>
+								Fax: (+63) 555 0101 <br>  
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- footer --> 
+
+	<footer>
+		<div class="footer-content">
+			<div class="roww">
+				<div class="footer-inf">
+					<h4 class="footer-h4">Infinity.</h4>
+					<p class="footer-p">Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Proin eget tortor risus.</p>
+				</div>
+				<div class="footer-follow">
+					<h4 class="footer-h4">Follow Us.</h4>
+					<ul class="footer-link">
+						<li>
+							<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/"  target="_blank">Twitter</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/"  target="_blank">Instagram</a>
+						</li>
+						<li>
+							<a href="https://www.behance.net/"  target="_blank">Behance</a>
+						</li>
+						<li>
+							<a href="https://dribbble.com/"  target="_blank">Dribble</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-notified">
+					<h4 class="footer-h4">Get Notified.</h4>
+					<p class="footer-p">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa.</p>
+					<div class="button-form">
+						<input class="footer-input" type="text" id="test" 
+						placeholder="type emeil">
+						<div class="er-footer-mail"></div>
+						<button class="footer-button" id="footer-btn" onclick="clickFooter()">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
+	
+	<script src="js/main.js"></script>
+	<script src="js/footer-reveal.js"></script>
+
+</body>
+</html>
