@@ -1,0 +1,21 @@
+.btn-2 {
+	background-color: #f9a828;
+	color: #fff;
+	box-shadow: 6px 6px #f9a828;
+}
+
+.btn-2a {
+	border-radius: 0 3px 3px 3px;
+}
+
+.btn-2a:hover {
+	box-shadow: 4px 4px #f9a828;
+	top: 2px;
+	left: 2px;
+}
+
+.btn-2a:active {
+	box-shadow: 0 0 #f9a828;
+	top: 4px;
+	left: 4px;
+}
